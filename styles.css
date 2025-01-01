@@ -1,0 +1,16 @@
+body {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+header {
+  background-color: red;
+  grid-column: 2/-1;
+}
+aside {
+  background-color: green;
+  grid-row: 1 / span 2;
+}
+main {
+  background-color: yellow;
+  grid-column: 2/-1;
+}
