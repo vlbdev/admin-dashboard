@@ -20,3 +20,15 @@ main {
   background-color: #e2e8f0;
   grid-column: 2/-1;
 }
+
+aside p {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+aside svg {
+  fill: white;
+  width: 40px;
+  vertical-align: middle;
+}
