@@ -38,7 +38,19 @@ aside svg {
   vertical-align: middle;
 }
 
+aside ul svg {
+  width: 15px;
+  vertical-align: text-top;
+  margin-right: 12px;
+}
+
 aside ul {
+  font-size: 12px;
+  font-weight: bold;
   list-style: none;
-  margin: 20px;
+  margin: 25px 20px 50px;
+}
+
+aside ul li {
+  margin-bottom: 17px;
 }
