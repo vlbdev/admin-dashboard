@@ -35,3 +35,8 @@ aside svg {
   width: 40px;
   vertical-align: middle;
 }
+
+aside ul {
+  list-style: none;
+  margin: 20px;
+}
