@@ -75,8 +75,8 @@ main > div {
   background-color: #fff;
   border-radius: 5px;
   border-left: 5px solid #f0b429;
-  padding: 20px;
-  font-size: 12px;
+  padding: 20px 10px;
+  font-size: 11px;
 }
 
 .title {
@@ -90,8 +90,7 @@ main > div > p {
 }
 
 .project svg {
-  width: 20px;
-  margin: 0 10px;
+  width: 15px;
 }
 
 .icons {
@@ -100,4 +99,8 @@ main > div > p {
   gap: 15px;
   justify-content: end;
   margin-top: 20px;
+}
+
+.desc {
+  color: #777;
 }
