@@ -128,3 +128,19 @@ main > div > p {
   padding-top: 10px;
   margin-top: 10px;
 }
+.trending {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.trending p {
+  font-size: 11px;
+}
