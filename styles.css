@@ -106,7 +106,24 @@ main > div > p {
 
 .announcement {
   width: 100%;
-  min-height: 300px;
   background-color: #fff;
   border-radius: 5px;
+  padding: 20px;
+}
+
+.announcement > div > p {
+  font-size: 11px;
+}
+.announcement > div > p:first-child {
+  font-weight: bold;
+}
+
+.announcement > div > p:last-child {
+  color: #777;
+}
+
+.announcement div + div {
+  border-top: 1px solid #bbb;
+  padding-top: 10px;
+  margin-top: 10px;
 }
