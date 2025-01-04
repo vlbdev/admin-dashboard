@@ -31,6 +31,8 @@ main {
   grid-column: 2/-1;
   display: grid;
   grid-template-columns: 5fr 2fr;
+  padding: 15px;
+  gap: 15px;
 }
 
 aside p {
@@ -60,10 +62,6 @@ aside ul {
 
 aside ul li {
   margin-bottom: 17px;
-}
-
-main > div {
-  padding: 20px 15px;
 }
 
 .projects {
@@ -104,4 +102,11 @@ main > div > p {
 
 .desc {
   color: #777;
+}
+
+.announcement {
+  width: 100%;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
 }
