@@ -104,7 +104,8 @@ main > div > p {
   color: #777;
 }
 
-.announcement {
+.announcement,
+.trending {
   width: 100%;
   background-color: #fff;
   border-radius: 5px;
